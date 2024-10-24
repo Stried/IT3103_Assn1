@@ -1,0 +1,17 @@
+Introduction
+In this assignment, you will be building a model that can be used to identify different types of fresh and rotten fruits: fresh apples, fresh oranges, fresh bananas, rotten apples, rotten oranges, and rotten bananas. You will apply the techniques you have learnt to maximize the model performance, by choosing the appropriate types of layers, network capacity, learning rate, and other appropriate techniques to reduce underfitting and overfitting.
+
+Dataset
+You are required to use the fruits dataset which can be downloaded from this url: https://nyp-aicourse.s3.ap-southeast-1.amazonaws.com/it3103/datasets/fruits.zip.
+
+Tasks
+You will build your own custom model and not a pretrained model such as Resnet, VGG, etc and train the model with the dataset mentioned above. Please take note of the following:
+
+Use appropriate train and validation split for the dataset
+Choose the type of layers, network capacity (number of layers, number of units), activation function, optimizer, and learning rate to maximize model performance
+Choose appropriate regularization techniques to reduce overfitting
+Use appropriate label encoding, and loss function for your model
+Report the appropriate metrics
+Use appropriate data augmentation if applicable
+Export the model as SavedModel and test it on an image not from the provided dataset (e.g., from Google Image)
+Provide appropriate comments on your choices
